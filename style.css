@@ -1,16 +1,52 @@
-*{
+/* General styling */
+body {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
+    display: flex;
 }
 
-nav{
-
+/* Navigation styles */
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-nav ul{
-
+/* Remove bullet points from the list */
+nav ul {
+    list-style-type: none; /* Removes default bullets */
+    display: flex; /* Aligns the items horizontally */
+    margin: 0; /* Removes default margin */
 }
 
-nav ul li{
-    
+nav ul li {
+    margin: 0 15px; /* Adds spacing between list items */
+}
+
+nav ul li a {
+    color: aquamarine;
+    text-align: center;
+    text-decoration: none; /* Corrected text-decoration */
+    display: block; /* Makes the link a block-level element */
+    padding: 5px 10px; /* Adds padding for better click area */
+}
+
+nav ul li a:hover {
+    background-color: blue;
+}
+
+/* Styling for images with class .left-image */
+.left-image {
+    width: 200px; /* Set width of image */
+    height: auto;
+    margin: 10px; /* Optional: Adds space around the image */
+}
+
+/* Content section styling */
+.content {
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
 }
