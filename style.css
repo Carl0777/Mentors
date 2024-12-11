@@ -46,13 +46,14 @@ nav ul li a:hover {
     display: block;
     margin-left: auto;
     margin-right: 0; 
-    width: 50%;
+    width: 30%;
 }
 
 /* Content section styling */
 .content {
     margin-top: 20px;
     padding: 20px;
+<<<<<<< HEAD
 }
 /* General Styles for the Login Page */
 body {
@@ -93,3 +94,8 @@ p {
     color: #555;
 }
 
+=======
+    margin-right: auto;
+    margin-left: 0; 
+}
+>>>>>>> 08db42c652133f9a5991304afb66d71a4d1fe9dc
