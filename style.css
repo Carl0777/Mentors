@@ -5,37 +5,43 @@ body {
     display: flex;
 }
 
-/* Navigation styles */
-nav {
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Styling the header */
+header {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Space between logo and nav */
     padding: 10px 20px;
+    background-color: #f8f8f8; /* Optional background */
 }
 
-/* Remove bullet points from the list */
+/* Styling the logo */
+#logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Styling the navigation bar */
 nav ul {
-    list-style-type: none; /* Removes default bullets */
-    display: flex; /* Aligns the items horizontally */
-    margin: 0; /* Removes default margin */
+    display: flex; /* Horizontal layout for links */
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px; /* Adds spacing between list items */
+    margin: 0 15px; /* Spacing between items */
 }
 
 nav ul li a {
-    color: aquamarine;
-    text-align: center;
-    text-decoration: none; /* Corrected text-decoration */
-    display: block; /* Makes the link a block-level element */
-    padding: 5px 10px; /* Adds padding for better click area */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    background-color: blue;
+    color: #007BFF; /* Optional hover effect color */
 }
+
 
 /* Styling for images with class .left-image */
 .left-image {
