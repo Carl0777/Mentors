@@ -42,17 +42,29 @@ nav ul li a:hover {
     color: #007BFF; 
 }
 
+.container{
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+}
+
 .right-img {
     display: block;
     margin-left: auto;
     margin-right: 0; 
-    width: 30%;
+    width: 40%;
 }
 
 /* Content section styling */
-.content {
-    margin-top: 20px;
-    padding: 20px;
-    margin-right: auto;
-    margin-left: 0; 
+.content ul {
+    list-style-type: none; 
+    padding-left: 95px;  
+    text-align: center;      
+}
+
+.content li {
+    padding: 10px;
+    font-size: 45px;
+    color: #457DC2;
+    font-weight: bold;
 }
