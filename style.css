@@ -33,8 +33,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none; 
-    color: #333; 
+    color: #457DC2; 
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav ul li a:hover {
