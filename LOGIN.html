@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="login-container">
+        <!-- Header Section -->
+        <a href="index.html">
+            <img src="images/Preview(1).jpg" alt="Logo" class="logo">
+        </a>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+        <!-- Login Content -->
+        <div class="login-content">
+            <h1>Welcome Back</h1>
+            <p>Log in to access your account and continue your journey.</p>
+            
+            <form action="#" method="post" class="login-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                
+                <button type="submit" class="btn-primary">Log In</button>
+            </form>
+            
+            <p class="signup-text">
+                Don’t have an account? <a href="signup.html">Sign Up</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
