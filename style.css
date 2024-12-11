@@ -7,20 +7,18 @@ body {
 
 /* Styling the header */
 header {
-    display: flex; /* Align items horizontally */
-    align-items: center; /* Vertically align items */
-    justify-content: space-between; /* Space between logo and nav */
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
     padding: 10px 20px;
-    background-color: #f8f8f8; /* Optional background */
+    background-color: #f8f8f8; 
 }
 
-/* Styling the logo */
 #logo {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: auto;
 }
 
-/* Styling the navigation bar */
 nav ul {
     display: flex; /* Horizontal layout for links */
     list-style: none; /* Remove bullets */
@@ -29,7 +27,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px; /* Spacing between items */
+    margin: 0 15px;
 }
 
 nav ul li a {
