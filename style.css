@@ -53,49 +53,6 @@ nav ul li a:hover {
 .content {
     margin-top: 20px;
     padding: 20px;
-<<<<<<< HEAD
-}
-/* General Styles for the Login Page */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #eef3fc;
-    color: #333;
-}
-
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 20px;
-}
-
-.login-content {
-    background: #fff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
-}
-
-h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #2a5f9e;
-}
-
-p {
-    margin-bottom: 20px;
-    color: #555;
-}
-
-=======
     margin-right: auto;
     margin-left: 0; 
 }
->>>>>>> 08db42c652133f9a5991304afb66d71a4d1fe9dc
