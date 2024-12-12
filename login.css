@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 .login-form h2 {
     margin-bottom: 20px;
-    color: #003366;
+    color: #457DC2;
 }
 
 .login-form input {
@@ -84,7 +84,7 @@ nav ul li a:hover {
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color: #003366;
+    background-color: #457DC2;
     color: white;
     border: none;
     border-radius: 4px;
