@@ -55,7 +55,6 @@ nav ul li a:hover {
     width: 40%;
 }
 
-/* Content section styling */
 .content ul {
     list-style-type: none; 
     padding-left: 95px;  
@@ -67,4 +66,15 @@ nav ul li a:hover {
     font-size: 45px;
     color: #457DC2;
     font-weight: bold;
+}
+
+.mentor-button{
+    background-color: #457DC2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 12px;
+    border: none;
+    transition: all 0.3s ease;
 }
