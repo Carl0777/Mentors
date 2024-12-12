@@ -1,4 +1,3 @@
-/* General styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -6,7 +5,6 @@ body {
     flex-direction: column;
 }
 
-/* Styling the header */
 header {
     display: flex;
     align-items: center; 
@@ -34,7 +32,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none; 
     color: #457DC2; 
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
@@ -44,7 +43,7 @@ nav ul li a:hover {
 
 .container{
     display: flex;
-    justify-content: flex-end; 
+    justify-content: center; 
     padding: 20px;
 }
 
@@ -57,7 +56,7 @@ nav ul li a:hover {
 
 /* Content section styling */
 .content {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
     margin-right: auto;
     margin-left: 0; 
@@ -70,7 +69,7 @@ nav ul li a:hover {
 }
 
 .content li {
-    padding: 10px;
+    padding: 5px;
     font-size: 45px;
     color: #457DC2;
     font-weight: bold;
@@ -85,4 +84,11 @@ nav ul li a:hover {
     border-radius: 12px;
     border: none;
     transition: all 0.3s ease;
+    margin-top: 20px;
+    position:absolute; left: 320px;
+}
+
+.mentor-button:hover {
+    background-color: #007BFF; 
+    transform: scale(1.05); 
 }
