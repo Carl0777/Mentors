@@ -1,98 +1,22 @@
+/* General Body Styling */
 body {
     font-family: Arial, sans-serif;
+    background-color: white;
     margin: 0;
     padding: 0;
-    background-color: #eef3fc;
-    color: #333;
 }
 
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 20px;
-}
-
-.login-content {
-    background: #fff;/* General Styles */
-
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 400px;
-    width: 100%;
-}
-
-h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #2a5f9e;
-}
-
-p {
-    margin-bottom: 20px;
-    color: #555;
-}
-
-.login-form label {
-    display: block;
-    text-align: left;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #333;
-}
-
-.login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.btn-primary {
-    background-color: #4a90e2;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
-    width: 100%;
-}
-
-.btn-primary:hover {
-    background-color: #357ab8;
-}
-
-.signup-text {
-    margin-top: 20px;
-}
-
-.signup-text a {
-    color: #4a90e2;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.signup-text a:hover {
-    color: #2a5f9e;
-}
-
+/* Header with Logo and Navbar */
 header {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
     padding: 10px 20px;
-    background-color: #f8f8f8; 
+    background-color: #f8f8f8; /* Light gray background for header */
 }
 
-.logo {
-    width: 100px;
+header .logo img {
+    width: 100px; /* Set width of logo */
     height: auto;
 }
 
@@ -109,11 +33,58 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none; 
-    color: #457DC2; 
+    color: #457DC2; /* Blue color for links */
     font-weight: bold;
     text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    color: #007BFF; 
+    color: #007BFF; /* Darker blue on hover */
+}
+
+/* Login Container Styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login-form {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #00aaff;
 }
