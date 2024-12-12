@@ -10,17 +10,18 @@ header {
     align-items: center; 
     justify-content: space-between; 
     padding: 10px 20px;
-    background-color: #f8f8f8; /* Light gray background for header */
+    background-color: #f8f8f8; 
 }
 
-header .logo img {
-    width: 100px; /* Set width of logo */
+.logo {
+    width: 100px;
     height: auto;
 }
 
 nav ul {
     display: flex; 
     list-style: none; 
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -32,20 +33,14 @@ nav ul li {
 nav ul li a {
     text-decoration: none; 
     color: #457DC2; 
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
 nav ul li a:hover {
     color: #007BFF; 
 }
-
-.container{
-    display: flex;
-    justify-content: flex-end; 
-    padding: 20px;
-}
-
 
 .container{
     display: flex;

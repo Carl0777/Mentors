@@ -20,21 +20,23 @@ header .logo img {
     height: auto;
 }
 
-/* Center Navbar Links */
+
 nav {
-    flex-grow: 1; /* Allow nav to grow to occupy space */
+ 
 }
 
 nav ul {
     display: flex; 
-    justify-content: center; /* Center the links horizontally */
+    justify-content: center; 
     list-style: none; 
     margin: 0;
     padding: 0;
+    background-color: ;
 }
 
 nav ul li {
     margin: 0 15px;
+    display:inline;
 }
 
 nav ul li a {
