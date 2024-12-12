@@ -5,17 +5,15 @@ body {
     flex-direction: column;
 }
 
-/* Header with Logo and Centered Navbar */
 header {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    padding: 10px 20px;
-    background-color: #f8f8f8; /* Light gray background for header */
+    background-color: #f8f8f8; 
 }
 
 header .logo img {
-    width: 100px; /* Set width of logo */
+    width: 50px; 
     height: auto;
 }
 
