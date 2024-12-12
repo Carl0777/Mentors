@@ -55,8 +55,6 @@ nav ul li a:hover {
     width: 40%;
 }
 
-<<<<<<< HEAD
-=======
 /* Content section styling */
 .content {
     margin-top: 20px;
@@ -65,7 +63,6 @@ nav ul li a:hover {
     margin-left: 0; 
 }
 
->>>>>>> 3ccc33ae5208b9cad8635753200f461bc2ccf9b5
 .content ul {
     list-style-type: none; 
     padding-left: 95px;  
@@ -88,9 +85,4 @@ nav ul li a:hover {
     border-radius: 12px;
     border: none;
     transition: all 0.3s ease;
-<<<<<<< HEAD
-=======
-
-    left: 50%;
->>>>>>> 3ccc33ae5208b9cad8635753200f461bc2ccf9b5
 }
