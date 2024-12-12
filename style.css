@@ -21,6 +21,7 @@ header {
 nav ul {
     display: flex; 
     list-style: none; 
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -80,12 +81,13 @@ nav ul li a:hover {
     color: white;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
     font-size: 25px;
-    padding: 0px;
     border-radius: 12px;
     border: none;
     transition: all 0.3s ease;
     margin-top: 20px;
+    padding: 22px 16px;
     position:absolute; left: 320px;
 }
 
