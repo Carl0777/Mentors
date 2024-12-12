@@ -77,4 +77,5 @@ nav ul li a:hover {
     border-radius: 12px;
     border: none;
     transition: all 0.3s ease;
+    left: 50%;
 }
