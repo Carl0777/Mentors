@@ -42,15 +42,38 @@ nav ul li a:hover {
     color: #007BFF; 
 }
 
+.container{
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text {
+    flex: 1.5;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.text ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.text ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
 h2{
     color: #457DC2;
 }
 
 p{
     max-width: 50%;
+    font-weight: bold;
 }
 
-.woman-img{
+.image{
     max-width: 100%;
     height: auto;
     flex: 1;
