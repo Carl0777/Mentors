@@ -1,54 +1,47 @@
-/* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
 }
 
-/* Header with Logo and Centered Navbar */
 header {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    padding: 10px 20px;
-    background-color: #f8f8f8;
+    padding: 0px 20px;
+    background-color: #f8f8f8; 
 }
 
-header .logo img {
+.logo {
     width: 100px;
     height: auto;
 }
 
-nav {
-    flex-grow: 1;
-}
-
 nav ul {
-    display: flex;
+    display: flex; 
+    list-style: none; 
     justify-content: center;
-    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
     margin: 0 15px;
+    float: left;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #457DC2;
-    font-weight: bolder;
-    font-size: 25px;
+    text-decoration: none; 
+    color: #457DC2; 
+    font-weight: bold;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    color: #007BFF;
+    color: #007BFF; 
 }
 
-/* Sign-Up Form Styling */
 .signup-container {
     display: flex;
     justify-content: center;
