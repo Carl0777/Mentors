@@ -42,40 +42,57 @@ nav ul li a:hover {
     color: #007BFF; 
 }
 
-.container{
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Makes the layout responsive */
     justify-content: space-between;
+    padding: 40px;
+    margin: 0 auto;
     max-width: 1200px;
-    width: 100%;
 }
 
-.text {
-    flex: 1.5;
-    padding: 20px;
+/* Image Section */
+.image {
+    flex: 1;
     max-width: 600px;
+    margin-right: 20px;
 }
 
-.text ul {
-    list-style-type: none;
-    padding-left: 20px;
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
-.text ul li {
-    font-size: 18px;
-    color: #555;
+/* Text Section */
+.text {
+    flex: 2;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h2 {
+    color: #457DC2;
     margin-bottom: 10px;
 }
-h2{
-    color: #457DC2;
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-p{
-    max-width: 50%;
-    font-weight: bold;
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
 }
 
-.image{
-    max-width: 100%;
-    height: auto;
-    flex: 1;
-    margin-right: 20px;
+ul li {
+    margin-bottom: 10px;
+}
+
+br {
+    margin-bottom: 20px;
 }
