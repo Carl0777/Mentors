@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0px 20px;
+    background-color: #f8f8f8; 
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #457DC2; 
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #007BFF; 
+}
+
+h2{
+    color: #457DC2;
+}
+
+p{
+    max-width: 50%;
+}
+
+.woman-img{
+    
+}
