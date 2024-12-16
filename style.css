@@ -44,6 +44,8 @@ nav ul li a:hover {
 
 .container{
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center; 
     padding: 20px;
 }
@@ -89,10 +91,19 @@ nav ul li a:hover {
     transition: all 0.3s ease;
     margin-top: 20px;
     padding: 22px 16px;
-    position:absolute; left: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mentor-button:hover {
     background-color: #007BFF; 
     transform: scale(1.05); 
+}
+
+.blue-box {
+    background-color: #457DC2;
+    width: 100%;  /* Ensures it spans the container width */
+    height: 200px; /* Adjust the height as needed */
+    margin-top: 20px; /* Adds space between the text and the blue box */
 }
