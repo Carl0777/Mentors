@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header with Logo and Centered Navbar */
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #457DC2;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* FAQ Section Styling */
+.faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    font-size: 20px;
+    color: #457DC2;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.faq-item h2:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.faq-item p {
+    display: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-left: 4px solid #457DC2;
+}
+
+.faq-item.active p {
+    display: block;
+}
