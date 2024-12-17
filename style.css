@@ -59,9 +59,9 @@ li a:hover {
 
 .content ul{
     list-style-type: none;
-    margin-top: 30px
-    margin-left: 70px;
-}
+    margin-top: 40px;
+    margin-left: 200px;
+   }
 
 .content ul li{
     text-align: center;
@@ -69,6 +69,19 @@ li a:hover {
     font-size: 34px;
     font-weight: bold;
 }
+
+.mentor-button{
+    background-color: #457dc2;
+    border: none;
+    border-radius: 55%;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 42px;
+
+}
+
 /*body {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
