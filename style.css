@@ -1,14 +1,37 @@
-body {
+body{
+    margin 0;
+    font-family: Arial, Helvetica;
+}
+
+header{
+
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    display: inline;
+}
+
+
+
+/*body {
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 0%;
+    margin-top: 0;
 }
 
 header {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    padding: 0px 20px;
+    padding: 0;
     background-color: #f8f8f8; 
 }
 
@@ -44,24 +67,22 @@ nav ul li a:hover {
 
 .container{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center; 
     padding: 20px;
 }
 
 .right-img {
-    display: block;
     margin-left: auto;
     margin-right: 0; 
     width: 40%;
-    height: 50%;
-    background-size: cover;
+    height: auto;
+    object-fit: cover;
 }
 
 .content {
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     margin-right: auto;
     margin-left: 0; 
 }
@@ -98,12 +119,6 @@ nav ul li a:hover {
 
 .mentor-button:hover {
     background-color: #007BFF; 
-    transform: scale(1.05); 
+    transform: ease(0.3s); 
 }
-
-.blue-box {
-    background-color: #457DC2;
-    width: 100%;  /* Ensures it spans the container width */
-    height: 200px; /* Adjust the height as needed */
-    margin-top: 20px; /* Adds space between the text and the blue box */
-}
+*/ 
