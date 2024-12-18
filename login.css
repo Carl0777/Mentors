@@ -1,46 +1,49 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 0%;
-    flex-direction: column;
+    font-family: Arial, sans-serif; /* Updated to match the first file */
+    background-color: white; /* Added for consistency */
+    margin: 0;
+    padding: 0; /* Fixed spacing to match the first file */
 }
 
 header {
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
-    background-color: #f8f8f8; 
+    background-color: #f8f8f8;
 }
 
-.logo {
+header .logo img { /* Added for logo consistency */
     width: 100px;
     height: auto;
 }
 
+nav {
+    flex-grow: 1; /* Added to align navigation with the first file */
+}
+
 nav ul {
-    display: flex; 
-    list-style: none; 
-    justify-content: center;
+    display: flex;
+    justify-content: center; /* Corrected centering for navigation */
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
     margin: 0 15px;
-    float: left;
 }
 
 nav ul li a {
-    text-decoration: none; 
-    color: #457DC2; 
-    font-weight: bold;
+    text-decoration: none;
+    color: #457DC2;
+    font-weight: bolder; /* Changed to match the first file */
     font-size: 25px;
     text-transform: uppercase;
 }
 
 nav ul li a:hover {
-    color: #007BFF; 
+    color: #007BFF;
 }
 
 /* Login Container Styling */
@@ -63,7 +66,7 @@ nav ul li a:hover {
 
 .login-form h2 {
     margin-bottom: 20px;
-    color: #457DC2;
+    color: #003366; /* Changed to match the first file's color scheme */
 }
 
 .login-form input {
@@ -78,7 +81,7 @@ nav ul li a:hover {
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color: #457DC2;
+    background-color: #003366; /* Updated to match the first file */
     color: white;
     border: none;
     border-radius: 4px;

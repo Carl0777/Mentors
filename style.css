@@ -1,15 +1,117 @@
-body {
+body{
+    margin: 0;
+    font-family: Arial, Helvetica;
+}
+
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #f8f8f8;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #457dc2;
+    text-align: center;
+    text-transform: uppercase ;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: blue;
+}
+  
+
+.right-img{
+    width: 450px;
+    height: 645px;
+    object-fit: cover;
+    float: right;
+}
+
+.container{
+
+  }
+
+.content{
+   float: left;
+}
+
+.content ul{
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 200px;
+    cursor: pointer;
+   }
+
+.content ul li{
+    text-align: center;
+    color: #457dc2;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.mentor-button{
+    background-color: #457dc2;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    margin-top: 30px;
+    margin-left: 330px
+}
+
+.mentor-button:hover {
+    background-color: #457dc2; 
+    color: white;
+    cursor: pointer;
+  }
+
+  .mentor-button2{
+    background-color: #457dc2;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+  }
+/*body {
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 0%;
-    flex-direction: column;
+    margin-top: 0;
 }
 
 header {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    padding: 10px 20px;
+    padding: 0;
     background-color: #f8f8f8; 
 }
 
@@ -45,21 +147,22 @@ nav ul li a:hover {
 
 .container{
     display: flex;
+    align-items: center;
     justify-content: center; 
     padding: 20px;
 }
 
 .right-img {
-    display: block;
     margin-left: auto;
     margin-right: 0; 
-    width: 30%;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
 }
 
-/* Content section styling */
 .content {
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     margin-right: auto;
     margin-left: 0; 
 }
@@ -89,10 +192,13 @@ nav ul li a:hover {
     transition: all 0.3s ease;
     margin-top: 20px;
     padding: 22px 16px;
-    position:absolute; left: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mentor-button:hover {
     background-color: #007BFF; 
-    transform: scale(1.05); 
+    transform: ease(0.3s); 
 }
+*/ 
