@@ -61,6 +61,7 @@ li a:hover {
     list-style-type: none;
     margin-top: 40px;
     margin-left: 200px;
+    cursor: pointer;
    }
 
 .content ul li{
@@ -73,15 +74,34 @@ li a:hover {
 .mentor-button{
     background-color: #457dc2;
     border: none;
-    border-radius: 55%;
+    border-radius: 20px;
     color: white;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    padding: 15px 42px;
-
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    margin-top: 30px;
+    margin-left: 330px
 }
 
+.mentor-button:hover {
+    background-color: #457dc2; 
+    color: white;
+    cursor: pointer;
+  }
+
+  .mentor-button2{
+    background-color: #457dc2;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+  }
 /*body {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
