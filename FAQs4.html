@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="faqs4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+        <!--right image-->
+        <img src="images/Preview(1).jpg" alt="Logo" class="logo">
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="LOGIN.html">Login</a></li>
+                <li><a href="signup.html">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+      <p>The Begninning of a New Asset class</p>
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq">
+        <button class="accordion">
+          What is MMC:MentorMyCoding?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            MentorMyCoding is an online platform designed to connect aspiring coders with experienced mentors. 
+            Whether you're a beginner or looking to advance your skills, we provide personalized mentoring sessions, 
+            coding challenges, and project-based learning to help you achieve your coding goals.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How does it work?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Getting started is easy! Simply sign up on our website, complete your profile, and tell us about your 
+            learning goals. We’ll match you with a mentor based on your needs and skill level. Once you’re matched, 
+            you can schedule sessions and begin learning at your own pace.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+            Do I need to have prior coding experience?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            No! Whether you’re just starting or have some experience, MentorMyCoding is designed for all skill levels. 
+            Our mentors tailor their sessions to meet your current knowledge and help you progress from where you are, 
+            whether you’re a complete beginner or looking to specialize in a specific area.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+            How much do mentoring sessions cost?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Our pricing varies depending on the mentor’s experience and the type of mentoring you need. We offer flexible pricing plans, 
+            including pay-per-session or subscription-based packages. Visit our pricing page for more details, and reach out to us if you 
+            have any specific questions about the costs.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+            What if I’m not satisfied with my mentor?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Your satisfaction is our priority. If you’re not happy with your mentoring experience, 
+            please reach out to us, and we’ll work with you to find a mentor that better matches your needs. 
+            We strive to ensure every learner has a positive and productive experience on our platform.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How does it work?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="brand">MMC:MentorMyCoding</a>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="LOGIN.html">Login</a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign up</a>
+                </li>
+                <li>
+                    <a href="#">Register</a>
+                </li>
+                <li>
+                    <a href="faqs.html">FAQs</a>
+                </li>
+            </ul>
+            <p>
+                At MentorMyCoding, we’re dedicated to helping you unlock your full potential as a coder. Whether you're just starting 
+                out or looking to enhance your skills, our expert mentors are here to guide you every step of the way. Join our community 
+                of learners, access personalized coding support, and take your coding journey to the next level. Contact us for more information,
+                 or sign up today to get started on your path to success!</p>
+        </div>
+    </footer>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
