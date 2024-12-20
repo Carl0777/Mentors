@@ -70,7 +70,7 @@ li a:hover {
 }
 
 .mentor-button{
-    background-color: #457dc2;
+    background-color: #5F9BD0;
     border: none;
     border-radius: 20px;
     color: white;
@@ -84,13 +84,17 @@ li a:hover {
 }
 
 .mentor-button:hover {
-    background-color: #457dc2; 
-    color: white;
+    background-color: #356fa0;
+    cursor: pointer;
+  }
+
+  .mentor-button2:hover {
+    background-color: #356fa0;
     cursor: pointer;
   }
 
   .mentor-button2{
-    background-color: #457dc2;
+    background-color: #5F9BD0;
     border: none;
     border-radius: 20px;
     color: white;
